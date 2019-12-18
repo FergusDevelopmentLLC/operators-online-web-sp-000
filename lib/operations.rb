@@ -10,5 +10,8 @@ def not_safe?(speed)
   return (speed >= 40 && speed <= 60) ? false : true
 end
 
+# name = "Steven"
+# puts "Hi, #{name}" if name == "Steven"
+
 name = "Steven"
-puts "Hi, #{name}" if name == "Steven"
+puts "Hi, #{name}" unless name == "Steven"
